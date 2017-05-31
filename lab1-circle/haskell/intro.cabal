@@ -1,0 +1,10 @@
+name:                intro
+version:             0.1.0.0
+build-type:          Simple
+cabal-version:       >=1.10
+
+executable plc-intro
+  hs-source-dirs:      .
+  main-is:             intro.hs
+  other-modules:       Included
+  build-depends:       base >= 4.7 && < 5
